@@ -12,7 +12,9 @@ Make a 'logs' folder in root directory
 
 ### Components
 Server (server.js): running on port specified in file, change if required. Receive information from client cpaturing (realtime_capture.py), and send to plotter (app.js)
+
 Web App (app.js): Connected to server, and plotting the data found.
+
 Packet capture (realtime_capture.py): Connected to server, and captures packets from interface and sends data to server.
 
 ### How to run
