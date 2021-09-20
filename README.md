@@ -7,6 +7,8 @@ For nodejs:
 For python:
 - pip install requirements.txt
 
+Make a 'logs' folder in root directory
+
 
 ### Components
 Server (server.js): running on port specified in file, change if required. Receive information from client cpaturing (realtime_capture.py), and send to plotter (app.js)
