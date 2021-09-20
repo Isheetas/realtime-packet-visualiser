@@ -26,7 +26,7 @@ app.get('/',function(req,res) {
 
   app.get('/app.js', function(req,res){
     //res.sendFile(__dirname+'/app.js');
-    res.sendFile(__dirname+'/app_analysis.js');
+    res.sendFile(__dirname+'/app.js');
 });
 
 
